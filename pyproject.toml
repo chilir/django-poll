@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-poll"
+version = "0.1.0-alpha1"
+description = "Poll webapp, following the tutorial on the Django website."
+authors = ["chilir <minghao_li@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^0.20.0"
+Django = "^4.0.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.961"
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
